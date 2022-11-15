@@ -1,0 +1,389 @@
+.nav1 ul li{
+    display: inline-block;
+}
+.nav1 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 0 12px;
+}
+.sign{
+    border: 2px solid;
+    background-color: #ff8c32;
+    border-color: #ff8c32;
+    padding: 12px 28px;
+    border-radius: 6px;
+}
+.qol{
+    background-color: rgba(0,0,0,.15);
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+}
+.backcolor{
+    background-color: #1e84fe;
+}
+.family{
+    padding-top: 40px;
+    text-align: center;
+}
+.family h1{
+    margin: 0 0 18px;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+.qol{
+    padding-top: 34px;
+}
+.form{
+    background-color: #fff;
+    border: 1px solid #fff;
+    margin-top: -60px;
+    box-shadow: 0 0 10px rgb(221 221 221 / 50%);
+    position: relative;
+    z-index: 4;
+    padding: 20px;
+    border-radius: 4px;
+}
+.form h4{
+    font-size: 18px;
+    font-weight: lighter;
+}
+.search{
+    border: 2px solid;
+    color: #fff;
+    background-color: #1e84fe;
+    border-color: #1e84fe;
+    padding: 18px;
+    border-radius: 6px;
+}
+.s1{
+    margin-top: 20px;
+}
+.qal{
+    width: calc(100% / 6);
+}
+
+select {
+    width: 180px !important;
+}
+.korobka{
+    border: 1px solid;
+    border-radius: 5px;
+    justify-content: center;
+    padding: 10px;
+    transition: all 0.5s ease;
+}
+.korobka p{
+    margin: 0;
+}
+.ikonka{
+    padding: 10px;
+    font-size: 22px;
+}
+.bar h3{
+    font-size: 18px;
+}
+.hisse1{
+    padding: 80px 0 ;
+}
+.color1:hover {background-color: #1e84fe;
+color: #fff;}
+.color2:hover {background-color: #ea9019;
+ color: #fff;}
+.color3:hover {background-color: #1e760e;
+color: #fff;}
+
+/* Disneyland hissesi */
+
+.disney1{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.disney2{
+    position: absolute;
+    background-color: rgba(0,0,0,.3);
+    color: #fff;
+    bottom: -51px;
+    padding: 10px;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    transition: all 1s;
+    opacity: 0;
+}
+.disney1:hover .disney2{
+    opacity: 1;
+    bottom: 0;
+}
+.text-center{
+    padding: 36px;
+    font-size: 42px;
+    font-weight: lighter;
+}
+
+/* Guy Hawkins hisse 3 */
+
+.hisse3{
+    padding: 60px;
+}
+.hawkins{
+    border: 2px solid #f8f8f8;
+    border-radius: 20px;
+    padding: 20px;
+    transition: 0.5s;
+}
+.hawkinscont h2{
+    font-size: 18px;
+}
+.hawkinscont1 {
+    margin: 16px 0 0;
+}
+.guest >h2{
+    margin: 0;
+    font-weight: bolder;
+    padding-bottom: 40px;
+}
+.hotel1{
+    position: relative;
+}
+.hotel2{
+    position: absolute;
+}
+.hawkins:hover{border-color: #ff8c32;}
+
+/* hisse 4 our hotels */
+
+.hisse4{
+    padding-bottom: 90px;
+}
+.hotel1{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.hotel2{
+    position: absolute;
+    background-color: rgba(0,0,0,.3);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    bottom: -50px;
+    width: 100%;
+    padding: 10px;
+    opacity: 0;
+    transition: 0.4s;
+}
+.hotel1:hover .hotel2{
+    opacity: 1;
+    bottom: 0px;
+}
+.hotel2 h3, p{
+    margin: 0;
+}
+.line1{
+    padding-bottom: 30px;
+}
+
+/* Hisse 5 accordion */
+
+.accordion-item{
+    margin: 20px;
+}
+.b{
+    border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color) !important;
+    border-radius: 10px !important;
+}
+.input1{
+    width: 100%;
+    height: 55px;
+    padding: 0 15px;
+    border: 1px solid #eaecf0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255 255 255 / 10%);
+    transition: 300ms;
+}
+.input2{
+    width: 100%;
+    border: 1px solid #eaecf0;
+    line-height: 28px;
+    padding: 15px;
+}
+.form1{
+    border: 1px solid #eaecf0;
+    padding: 20px;
+    border-radius: 10px;
+}
+.submit1{
+    width: 100%;
+    padding: 14px;
+}
+.submit1:hover {
+    background-color: #fff;
+    color: #1e84fe;
+}
+.blank{
+    margin-bottom: 10px;
+}
+.name{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+/* Hisse 6 */
+
+.hisse6{
+    padding: 60px;
+}
+.blog1{
+    position: relative;
+}
+.blog1 a img{
+    border-radius: 10px;
+}
+.date{
+    border-bottom: 1px solid #fff;
+    display: block;
+    box-sizing: border-box;
+}
+.month{
+    display: inline-block;
+    box-sizing: border-box;
+}
+.dm{
+    position: absolute;
+    bottom: 140px;
+    left: 20px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: #ff8c32;
+    text-align: center;
+    
+}
+.dm a{
+    text-decoration: none;
+    color: #fff;
+}
+.qwe{
+    padding: 20px 0;
+}
+.qwe1{
+    padding-right: 15px;
+}
+.qwe1 a i{
+    padding-right: 15px;
+}
+.great a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Hisse 7 */
+
+.hisse7{
+    padding: 60px 0;
+}
+.logo img{
+    width: 200px;
+}
+
+/* Hisse 8 */
+
+.pad1{
+    padding-bottom: 35px;
+}
+.pad2{
+    padding-bottom: 20px;
+}
+.pad3{
+    padding-bottom: 10px;
+}
+.pad4{
+    padding-bottom: 30px;
+}
+.phone{
+    align-items: center;
+    padding-right: 30px;
+}
+.ikonka{
+    border: 1px solid;
+    border-radius: 50%;
+    border-color: #fff;
+    background-color: #fff;
+    margin-right: 15px;
+    color: #ff8c32;
+    transition: all 0.5s;
+}
+.ww{
+    font-size: 16px;
+}
+.ikonka:hover {
+    background-color: #ff8c32;
+    color: #fff;
+    border-color: #ff8c32;
+}
+.hisse8{
+    background-color: #1e84fe;
+    padding: 40px 0;
+}
+.foot1{
+    padding: 50px 0;
+}
+.in{
+    width: 94%;
+    height: 60px;
+    padding: 0 15px;
+    border: 1px solid #eaecf0;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgb(255 255 255 / 10%);
+    transition: 300ms;
+}
+.forma{
+    position: relative;
+}
+.sub{
+    position: absolute;
+    right: 50px;
+    bottom: 10px;
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 7px 20px;
+    background-color: #ff8c32;
+    color: #fff;
+}
+.jobs{
+    padding: 30px 0 45px;
+}
+.about{
+    margin: 0;
+    padding: 0;
+}
+.about li{
+    display: inline-block;
+}
+.about li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 0 46px;
+}
+.fyt{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #fff;
+    color: black;
+    padding: 10px;
+    margin-right: 10px;
+    transition: all 0.5s;
+}
+.hotell{
+    text-decoration: none;
+    color: #ff8c32;
+}
+.fyt:hover {
+    background-color: #ff8c32;
+    color: #fff;
+    border-color: #ff8c32;
+}
+.about li a:hover {
+    color: #ff8c32;
+}
